@@ -1,24 +1,120 @@
-# Advanced-Unity-Final-Project: Undead Havoc
-<img src = "https://user-images.githubusercontent.com/84507955/214804964-5e311963-c7f0-43cd-a577-69629017c3e3.png" alt = "logo of kbtu" width = "200">
-<em>Term: <strong>Spring 2023/24</strong></em><br>
-<em>Discipline: <strong>Advanced Unity Game Engine</strong></em><br>
-<em>Instructor: </em> <strong>Dmitrii Tuchashvili</strong><br>
-<em>Team members:</em>
-<strong>Samatuly Serikbolsyn [21B030910]</strong><br><br>
-<img src = "https://github.com/Samatuly/Advanced-Unity-Final-Project/blob/main/Final%20Project/Assets/Sprites/undead_havoc_logo.png" alt = "logo of game" width = "100">
-<h2>Introduction</h2>
-<a>Undead Havoc is an adrenaline-pumping 3D first-person shooter game set in a post-apocalyptic world overrun by zombies. With immersive gameplay and stunning visuals, players are thrust into the heart of the chaos where survival is the ultimate goal.</a>
-<br>
-<h2>Key Features</h2>
-<strong>Intense Action:</strong> Experience non-stop action as you face hordes of undead enemies in a variety of challenging environments. <br>
-<strong>Immersive Gameplay:</strong> Engage in fast-paced combat with responsive controls that put you right in the middle of the action. <br>
-<strong>Multiple Weapons:</strong> Arm yourself with an arsenal of weapons ranging from pistols and shotguns to powerful explosives, each offering unique advantages against the zombie horde. <br>
-<strong>Stunning Graphics:</strong> Immerse yourself in a visually stunning world brought to life with detailed environments and realistic character models. <br>
-<strong>Dynamic Soundtrack:</strong> Experience the thrill of the apocalypse with an immersive soundtrack that enhances the atmosphere and tension of the game. <br>
-<h2>Gameplay</h2>
-In Undead Havoc, players must navigate through treacherous environments filled with zombies hungry for flesh. Armed with various weapons, including pistols, shotguns, and explosives, players must strategically eliminate enemies while managing their resources and staying one step ahead of the relentless horde. With each wave of zombies growing stronger and more numerous, survival becomes increasingly challenging, testing the player's skills and reflexes to the limit.
-<h2>Feedback</h2>
-We value your feedback! If you have any suggestions or ideas for improving Undead Havoc, please don't hesitate to reach out to us. Your input helps us make the game even better for our players.
-<h2></h2>
-<p align = "center">
-  <img src = "https://github.com/Samatuly/Advanced-Unity-Final-Project/blob/main/Final%20Project/Assets/Sprites/S%26B_logo.png" alt = "logo of company" width = "200"></p>
+<div align="center">
+
+<img src="Assets/Sprites/undead_havoc_logo.png" alt="Undead Havoc logo" width="480">
+
+# Undead Havoc
+
+**A fast-paced 3D first-person zombie shooter built with Unity and C#.**
+
+![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000?logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
+![Genre](https://img.shields.io/badge/Genre-FPS%20%2F%20Survival-red)
+![Status](https://img.shields.io/badge/Status-Course%20Project-blue)
+
+[Overview](#-overview) · [Features](#-features) · [Screenshots](#-screenshots) · [Controls](#-controls) · [Getting Started](#-getting-started) · [Project Structure](#-project-structure) · [Team](#-team)
+
+</div>
+
+---
+
+## 🎮 Overview
+
+The world has fallen to the undead. In **Undead Havoc** you are one of the last survivors, fighting through hostile environments against ever-growing waves of zombies. Manage your ammo, pick the right weapon for the moment, and stay alive as long as you can.
+
+> Final project for **Advanced Unity Game Engine**, KBTU, Spring 2023/24.
+
+## ✨ Features
+
+- **Wave-based survival**: every wave is bigger and tougher than the last.
+- **Arsenal of weapons**: pistol, shotgun and explosives, each with its own role.
+- **Responsive first-person controls** for tight, fast combat.
+- **Atmospheric environments** with detailed models and lighting.
+- **Dynamic soundtrack** that builds tension throughout the fight.
+
+## 📸 Screenshots
+
+<!-- Add 3–4 screenshots or a short GIF to docs/screenshots/ and uncomment: -->
+<!--
+| Gameplay | Weapons | Menu |
+|:--:|:--:|:--:|
+| ![Gameplay](docs/screenshots/gameplay.png) | ![Weapons](docs/screenshots/weapons.png) | ![Menu](docs/screenshots/menu.png) |
+-->
+
+*Screenshots coming soon.*
+
+## 🕹️ Controls
+
+> Update this table to match the actual input bindings of your project.
+
+| Action | Key |
+|---|---|
+| Move | `W` `A` `S` `D` |
+| Look | Mouse |
+| Shoot | Left Mouse Button |
+| Reload | `R` |
+| Switch weapon | `1` `2` `3` / Mouse Wheel |
+| Jump | `Space` |
+| Pause | `Esc` |
+
+## 🚀 Getting Started
+
+### Requirements
+
+- [Unity Hub](https://unity.com/download)
+- Unity Editor **2022.3 LTS or newer** (check `ProjectSettings/ProjectVersion.txt` for the exact version)
+- Git
+
+### Run the project
+
+```bash
+git clone https://github.com/Samatuly/Advanced-Unity.git
+```
+
+1. Open **Unity Hub** → **Add** → select the cloned folder.
+2. Open the project with the matching Editor version.
+3. Open the main scene from `Assets/Scenes/` and press **Play**.
+
+### Build
+
+`File → Build Settings → select platform → Build`
+
+## 🗂️ Project Structure
+
+```
+Advanced-Unity/
+├── Assets/            # Scenes, scripts, sprites, audio, prefabs
+├── Packages/          # Unity package manifest
+├── ProjectSettings/   # Unity project configuration
+└── README.md
+```
+
+## 🛠️ Built With
+
+- **Unity**: game engine
+- **C#**: gameplay scripting
+- **Visual Studio Code**: editor
+
+## 🗺️ Roadmap
+
+- [ ] More enemy types and a boss wave
+- [ ] More weapons and upgrades
+- [ ] Save system and high score table
+- [ ] Gamepad support
+
+## 💬 Feedback
+
+Ideas or bug reports are welcome. Open an [issue](https://github.com/Samatuly/Advanced-Unity/issues) and describe what you found.
+
+## 👥 Team
+
+| | |
+|---|---|
+| **Course** | Advanced Unity Game Engine |
+| **Instructor** | Dmitrii Tuchashvili |
+| **Developer** | Samatuly Serikbolsyn (21B030910) |
+
+<div align="center">
+
+<img src="Assets/Sprites/S&B_logo.png" alt="S&B logo" width="120">
+
+</div>
